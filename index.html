@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="./dist/output.css">
     <title>TodoList App</title>
 </head>
 <body>
-    <div class="container mx-auto">
-        <h2 class="font-semibold text-white bg-red-500 mt-10">I will like to start building JavaScript project</h2>
+    <div class="mt-20">
+        <div class="container mx-auto">
+            <form class="flex flex-col" id="addform">
+                <input type="text" placeholder="Enter new items" class="w-[90%] p-6 placeholder-slate-400  border border-gray-500 mx-32 text-2xl" id="input-value">
+                <button type="submit" class="bg-blue-500 text-white py-4 px-6 rounded-lg ml-32 mt-20 hover:bg-blue-400 btn w-32" id="btnn">Submit</button>
+
+            </form>
+        </div>
+
+        <div class="mt-20">
+        <div class="container mx-auto px-28">
+            
+            
+            <ul class="flex flex-col" id="list">
+                <li class="py-6 text-3xl text-gray-500 list-added ">Creas poppo ddhdbd
+                <button class="bg-red-600 text-white py-4 px-8 self-center rounded-lg font-semibold text-2xl hover:bg-red-400 btn float-right" id="delete">x</button></li>
+
+                <li class="py-6 text-3xl text-gray-500 list-added">Creas poppo ddhdbd
+                <button class="bg-red-600 text-white py-4 px-8 self-center rounded-lg font-semibold text-2xl hover:bg-red-400 btn float-right">x</button></li>
+
+                <li class="py-6 text-3xl text-gray-500 list-added">Creas poppo ddhdbd
+                <button class="bg-red-600 text-white py-4 px-8 self-center rounded-lg font-semibold text-2xl hover:bg-red-400 btn float-right">x</button></li>
+
+                <li class="py-6 text-3xl text-gray-500 list-added">Creas poppo ddhdbd
+                <button class="bg-red-600 text-white py-4 px-8 self-center rounded-lg font-semibold text-2xl hover:bg-red-400 btn float-right">x</button></li>
+
+                <li class="py-6 text-3xl text-gray-500 list-added">Creas poppo ddhdbd
+                <button class="bg-red-600 text-white py-4 px-8 self-center rounded-lg font-semibold text-2xl hover:bg-red-400 btn float-right">x</button></li>
+            </ul>
+
+        </div>
     </div>
+    
+    </div>
+    <script src="/dist/main.js"></script>
 </body>
 </html>
